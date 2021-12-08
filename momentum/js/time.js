@@ -76,7 +76,7 @@ function setBg() {
       }
   } else {
     // Evening
-      document.body.style.backgroundImage = `url('https://raw.githubusercontent.com/TrofimGest/stage1-tasks/assets/images/evening/${addZero(pictureIndex)}.jpg')`;
+      loadingPicture(`https://raw.githubusercontent.com/TrofimGest/stage1-tasks/assets/images/evening/${addZero(pictureIndex)}.jpg`);
       if (languageInput1[0].checked){
         greeting.textContent = 'Добрый Вечер, ';
       } else{

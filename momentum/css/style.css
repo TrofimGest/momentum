@@ -408,47 +408,6 @@ ul > li {
   min-height: 160px;  
   padding: 20px;
 }
-
-.linklist{
-  width: 30vw;
-  transition: 1s ease-in-out;
-}
-
-.link-title{
-  text-align: left;
-  margin-bottom: 5px;
-}
-
-.form-container{
-  display: flex;
-  flex-direction: column;
-}
-
-.form-group{
-  display: flex;
-}
-
-#site-name,
-#site-url{
-  font-size: 16px;
-  color: #ffffff;
-  background-color: transparent;
-  border: 0;
-  outline: 0;
-}
-
-#add-url{
-  width: 35%;
-}
-
-.link-site-url{
-  margin-bottom: 5px;
-}
-
-.visit-button,
-.delete-button{
-width: 14%;
-}
 .quote-block{
   transition: 1s ease-in-out;
 }
